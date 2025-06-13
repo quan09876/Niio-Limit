@@ -7,7 +7,7 @@ module.exports.config = {
   commandCategory: "Coin",
   cooldowns: 5,
   envConfig: {
-    cooldownTime: 43200000 * 2, //(12 nhân 2) tiếng =))))
+    cooldownTime: 43 * 2, //(12 nhân 2) tiếng =))))
     rewardCoin: 2000,
   },
 };
