@@ -7,7 +7,7 @@ module.exports.config = {
   description: "sos", 
   commandCategory: "Ảnh",
   usages: "",
-  cooldowns: 6000
+  cooldowns: 60
 };
 
 module.exports.run = async ({ api, event, args, Threads }) => {
