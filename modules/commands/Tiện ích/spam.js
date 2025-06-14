@@ -20,7 +20,7 @@ function delay(ms) {
 
 module.exports.run = async function ({ api, event, args }) { 
   const { threadID, messageID, senderID } = event;
-  const content = (args.length != 0) ? args.join(" ") : "prefix";
+  const content = (args.length != 0) ? args.join(" ") : "ê mấy cn 🐶";
   
   if (args[0] === "stop") {
     if (spamThreads.has(threadID)) {
