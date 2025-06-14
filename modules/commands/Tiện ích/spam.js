@@ -8,7 +8,7 @@ module.exports.config = {
   usages: "",
   cooldowns: 1,
   envConfig: {
-    spamDelay: 2,
+    spamDelay: 1,
     maxSpamDuration: 120 // Thêm thời gian tối đa spam (giây)
   }
 };
